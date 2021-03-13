@@ -15,15 +15,15 @@
         var secondsLeft;
         var isFired = false;
         var settings = {
-            end: undefined,
+            end: (new Date(2021, 8, 15, 11, 59, 59, 999)).getTime(),
             now: $.now(),
             labels: true,
             labelsOptions: {
                 lang: {
-                    days: 'Days',
-                    hours: 'Hours',
-                    minutes: 'Minutes',
-                    seconds: 'Seconds'
+                    days: 'Dias',
+                    hours: 'Horas',
+                    minutes: 'Minutos',
+                    seconds: 'Segundos'
                 },
                 style: 'font-size: 0.5em;'
             },
