@@ -15,7 +15,7 @@
         var secondsLeft;
         var isFired = false;
         var settings = {
-            end: (new Date(2021, 8, 15, 11, 59, 59, 999)).getTime(),
+            end: undefined,
             now: $.now(),
             labels: true,
             labelsOptions: {
