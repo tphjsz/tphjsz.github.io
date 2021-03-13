@@ -16,7 +16,7 @@
 		var remainingSec = $('.countdown').data('remaining-sec');
 		$('.countdown').ClassyCountdown({
 			theme: "flat-colors-very-wide",
-			end: $.now() + 15000
+			end: $.now() + 999999999
 		});
 	}
 	
